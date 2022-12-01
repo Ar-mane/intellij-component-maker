@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>ma.armane.Component-Maker</id>
+    <name>Component-Maker</name>
+
+    <vendor email="abderrahmane.arache@gmail.com" url="https://github.com/Ar-mane">Armane</vendor>
+
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+  ]]></description>
+
+
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+
+    </extensions>
+
+    <actions>
+        <action id="ma.armane.componentMaker.Command" class="ma.armane.componentMaker.Command" text="Make Component">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>
